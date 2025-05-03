@@ -34,9 +34,9 @@ int main() {
     int col = 2;   // pos actual del 0
 
     char tecla;
-    cout << "usa w (arriba), a (izquierda), s (abajo), d (derecha). q para salir.\n\n";
+    cout << "w,a,s,d. q para salir.\n\n";
 
-    // while
+
     while (true) {
         imprimir(ptr, 3, 3);  // mostramos la matriz
         cout << "\ntu movimiento: ";
